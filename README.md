@@ -1,0 +1,1 @@
+# This is a simple and clean Login Page created using HTML, CSS, and JavaScript. HTML is used to create the structure of the page, CSS is used to make it attractive and responsive, and JavaScript is used to add basic functionality and validation. The page contains fields for username/email and password, along with a login button.

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="Container">
+    <div class="left-container">
+      <div class="brand-mark" aria-hidden="true">N</div>
+      <div class="welcome-copy">
+        <p class="eyebrow">Welcome back</p>
+        <h1>Make space for what matters.</h1>
+        <p>Sign in to keep your projects, ideas, and everyday work moving forward.</p>
+      </div>
+      <p class="quote">"The simplest way to stay close to your best work."</p>
+    </div>
+
+    <main class="right-container">
+      <div class="login-form">
+        <p class="eyebrow">Your account</p>
+        <h2>Sign in</h2>
+        <p class="form-intro">Enter your details to continue.</p>
+
+        <form>
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+
+          <div class="password-label">
+            <label for="password">Password</label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+
+          <label class="remember-me">
+            <input type="checkbox" name="remember">
+            <span>Remember me</span>
+          </label>
+
+          <button type="submit">Sign in <span aria-hidden="true">&rarr;</span></button>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="divider"><span>or continue with</span></div>
+        <div class="social-sign-in">
+          <button type="button" class="social-button">G<span aria-hidden="true">oogle</span></button>
+          <button type="button" class="social-button">in<span aria-hidden="true"> LinkedIn</span></button>
+        </div>
+        <p class="signup-prompt">Don't have an account? <a href="#">Create one</a></p>
+      </div>
+    </main>
+  </div>
+  <script src = "loginPage.js"></script>
+</body>
+</html>
